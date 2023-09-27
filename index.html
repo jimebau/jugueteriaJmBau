@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <title>Page Layout</title>
+        <style>
+                .head1 {
+                        font-size: 55px;
+                        color: #000000;
+                        font-weight: bold;
+                }
+
+                .head2 {
+                        font-size: 22px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                }
+
+
+                body {
+                        margin: 0 auto;
+                        background-position: center;
+                        background-size: contain;
+                        position: relative;
+                        font-size: 27px;
+                }
+
+                .body2 {
+                        text-align: left;
+                        font-family: "Candara";
+                        font-size: 20px;
+                }
+
+                .pluto {
+                        background-color: #ec6b4a;
+                        width: 100%;
+                        height: 200px;
+                }
+
+                .menu {
+                        position: sticky;
+                        top: 0;
+                        background-color: #B0BEC5;
+                        padding: 10px 0px 10px 0px;
+                        color: rgb(0, 0, 0);
+                        margin: 0 auto;
+                        overflow: hidden;
+
+                }
+
+                .menu a {
+                        float: left;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 20px;
+                }
+
+                .menu a:hover {
+                        background:rgb(223, 202, 87);
+                }
+
+                .menu-log {
+                        right: auto;
+                        float: right;
+                }
+
+                .body_sec {
+                        margin-left: 10px 0px;
+                      
+                }
+
+                .footer{
+                background-color:  #4d89c2;
+          }
+                .body_sec {
+                        margin-left: 10px 0px;
+                }
+        </style>
+</head>
+
+<body>
+
+        <!-- Header Section -->
+        <header class="pluto">
+                
+
+                <center>
+                         <img src="img/logo.png" alt="hueso" width="99" height="99">
+                        <div class="head1">Jugueteria JmBau</div>
+                </center>
+        </header>
+
+        <!-- Menu Navigation Bar -->
+        <div class="menu">
+            <center>
+                <a href="index.html"><img src="img/casita.png" alt="hueso" width="45" height="40"></a>
+              
+                
+            </center>
+                <div class="menu-log">
+                        <a href="mision.html">Mision</a>
+                        <a href="vision.html">Vision</a>
+                        <a href="ubicacion.html">Ubicacion</a>
+                        <a href="formclientes.html">Tablas</a>
+                        <a href="tabclientes.html">Formularios</a>
+                        <a href="webmaster.html">Web Master</a>
+                        <a href="webmaster.html"></a>
+                </div>
+        </div>
+
+        <!-- Body section -->
+        <div class="body_sec">
+                <section id="Content">
+                        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Diapositiva 1" aria-current="true"></button>
+                                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2" class=""></button>
+                                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3" class=""></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="img/barbie.png" alt="barbie" width="1600px">
+                                    <div class="container">
+                                      <div class="carousel-caption text-start">
+                                        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Barbie.</font></font></h1>
+                                        <p class="opacity-75"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este es el regalo perfecto para cualquier nina.</font></font></p>
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                        <img src="img/lol.png" alt="barbie" width="1600px">
+                                    <div class="container">
+                                      <div class="carousel-caption">
+                                        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Munequitas LOL.</font></font></h1>
+                                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Regalo perfecto para cualquier nina.</font></font></p>
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                        <img src="img/pawpatrol.png" alt="barbie" width="1600">
+                                      <div class="carousel-caption text-end">
+                                        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paw Patrol.</font></font></h1>
+                                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">perfecto para cualquier amante de los animales.</font></font></p>
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
+                                </button>
+                              </div>
+           
+                </section>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+                <div class="container">
+                        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                          <p class="col-md-4 mb-0 text-body-secondary">@JugueteriaJmBau</p>
+                      
+                          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                          </a>
+                      
+                          <ul class="nav col-md-4 justify-content-end">
+                            <li class="nav-item"><a href="tabclientes.html" class="nav-link px-2 text-body-secondary">Formularios</a></li>
+                            <li class="nav-item"><a href="formclientes.html" class="nav-link px-2 text-body-secondary">Tablas</a></li>
+                            <li class="nav-item"><a href="webmaster.html" class="nav-link px-2 text-body-secondary">Web Master</a></li>
+                            
+                         
+                          </ul>
+                        </footer>
+                      </div>
+                </div>
+        </body>
+        
+        </html>

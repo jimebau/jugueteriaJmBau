@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="estilo.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <title>Page Layout</title>
+        <style>
+                .head1 {
+                        font-size: 55px;
+                        color: #000000;
+                        font-weight: bold;
+                }
+
+                .head2 {
+                        font-size: 22px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                }
+
+
+                body {
+                        margin: 0 auto;
+                        background-position: center;
+                        background-size: contain;
+                        position: relative;
+                        font-size: 27px;
+                }
+
+                .body2 {
+                        text-align: left;
+                        font-family: "Candara";
+                        font-size: 20px;
+                }
+
+                .pluto {
+                        background-color:#ec6b4a;
+                        width: 100%;
+                        height: 200px;
+                }
+
+                .menu {
+                        position: sticky;
+                        top: 0;
+                        background-color: #B0BEC5;
+                        padding: 10px 0px 10px 0px;
+                        color: rgb(0, 0, 0);
+                        margin: 0 auto;
+                        overflow: hidden;
+
+                }
+
+                .menu a {
+                        float: left;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 20px;
+                }
+
+                .menu a:hover {
+                        background: rgb(223, 202, 87);
+                }
+
+                .menu-log {
+                        right: auto;
+                        float: right;
+                }
+
+           
+                .body_sec {
+                        margin-left: 10px 0px;
+                      
+                }
+                .footer{
+                background-color:  #4d89c2;
+          }
+                .body_sec {
+                        margin-left: 10px 0px;
+                }
+        </style>
+</head>
+
+<body>
+
+        <!-- Header Section -->
+        <header class="pluto">
+                
+
+                <center>
+                         <img src="img/logo.png" alt="hueso" width="99" height="99">
+                        <div class="head1">Jugueteria JmBau</div>
+                </center>
+        </header>
+
+        <!-- Menu Navigation Bar -->
+        <div class="menu">
+            <center>
+                <a href="index.html"><img src="img/casita.png" alt="hueso" width="45" height="40"></a>
+              
+                
+            </center>
+                <div class="menu-log">
+                        <a href="mision.html">Mision</a>
+                        <a href="vision.html">Vision</a>
+                        <a href="ubicacion.html">Ubicacion</a>
+                        <a href="formclientes.html">Tablas</a>
+                        <a href="tabclientes.html">Formularios</a>
+                        <a href="webmaster.html">Web Master</a>
+                        <a href="webmaster.html"></a>
+                </div>
+        </div>
+
+        <!-- Body section -->
+        <div class="body_sec">
+                <section id="Content">
+                        
+                  <!-- =======  F.A.Q Section ======= -->
+        <section id="faq">
+
+                <div class="container" data-aos="fade-up">
+    
+                    <div class="section-header">
+                        <h2>Formularios</h2>
+                    </div>
+    
+                    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-9">
+    
+                            <ul class="faq-list">
+    
+                                <li>
+                                    <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Formulario Cliente
+                                        <i class="bi bi-chevron-down icon-show"></i><i
+                                            class="bi bi-chevron-up icon-close"></i>
+                                    </div>
+                                    <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                                        <p>
+                                            <form action="/my-handling-form-page" method="post">
+                                                <div>
+                                                  <label for="name">id_cliente:</label>
+                                                  <input type="text" id="name" name="user_name" />
+                                                </div>
+                                                <div>
+                                                    <label for="name">email:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <div>
+                                                    <label for="name">Nombres:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                <div>
+                                                    <label for="name">Apellidos:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Telefono:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">RFC:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Calle:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">CP:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                    <div>
+                                                      <label for="name">Colonia:</label>
+                                                      <input type="text" id="name" name="user_name" />
+                                                    </div>
+                                                  <div>
+                                                  </div>
+                                                  <button type="reset" class="btn btn-primary">Enviar</button>
+                                              </form>       
+                                        </p>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div data-bs-toggle="collapse" class="collapsed question" href="#faq2">Formulario Empleados
+                                        <i class="bi bi-chevron-down icon-show"></i><i
+                                            class="bi bi-chevron-up icon-close"></i>
+                                    </div>
+                                    <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                                        <p>
+                                            <form action="/my-handling-form-page" method="post">
+                                                <div>
+                                                  <label for="name">id_Empleados:</label>
+                                                  <input type="text" id="name" name="user_name" />
+                                                </div>
+                                                <div>
+                                                    <label for="name">Nombres:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <div>
+                                                    <label for="name">Apellidos:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                <div>
+                                                    <label for="name">Email:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Telefono:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">RFC:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Direccion:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Sueldo:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <button type="reset" class="btn btn-primary">Enviar</button>
+                                              </form>       
+                                        </p>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Formulario Productos<i
+                                            class="bi bi-chevron-down icon-show"></i><i
+                                            class="bi bi-chevron-up icon-close"></i>
+                                    </div>
+                                    <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                                        <p>
+                                            <form action="/my-handling-form-page" method="post">
+                                                <div>
+                                                  <label for="name">Nombre:</label>
+                                                  <input type="text" id="name" name="user_name" />
+                                                </div>
+                                                <div>
+                                                    <label for="name">Descripcion:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <div>
+                                                    <label for="name">Categoria:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                <div>
+                                                    <label for="name">Precio:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">id_Provedor:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Productos Almacenados:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                  <button type="reset" class="btn btn-primary">Enviar</button>
+                                              </form>  
+                                        </p>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Formulario Provedores<i
+                                            class="bi bi-chevron-down icon-show"></i><i
+                                            class="bi bi-chevron-up icon-close"></i></div>
+                                    <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                                        <p>
+                                            <form action="/my-handling-form-page" method="post">
+                                                <div>
+                                                  <label for="name"> id_Provedor
+                                                  </label>
+                                                  <input type="text" id="name" name="user_name" />
+                                                </div>
+                                                <div>
+                                                    <label for="name">Nombre Comercial:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <div>
+                                                    <label for="name">RFC:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                <div>
+                                                    <label for="name">Nombre Registrado en el SAT:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Tipo De Producto:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Direccion:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Telefono:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Email:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <button type="reset" class="btn btn-primary">Enviar</button>
+                                              </form>  
+                                        </p>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Formulario Sucursales<i
+                                            class="bi bi-chevron-down icon-show"></i><i
+                                            class="bi bi-chevron-up icon-close"></i></div>
+                                    <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                                        <p>
+                                            <form action="/my-handling-form-page" method="post">
+                                                <div>
+                                                  <label for="name">id_Sucursal:</label>
+                                                  <input type="text" id="name" name="user_name" />
+                                                </div>
+                                                <div>
+                                                    <label for="name">Direccion:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                  <div>
+                                                    <label for="name">Numero De Empleados:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>
+                                                <div>
+                                                    <label for="name">Numero De Departamentos :</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Telefono De Sucursal:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">id_Empleados:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+                                                    <label for="name">Numero De Gerente:</label>
+                                                    <input type="text" id="name" name="user_name" />
+                                                  </div>                                            <div>
+    
+                                                  <button type="reset" class="btn btn-primary">Enviar</button>
+                                              </form>  
+                                        </p>
+                                    </div>
+                                </li>
+    
+                            </ul>
+    
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </section>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+          <div class="container">
+                  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-body-secondary">@JugueteriaJmBau</p>
+                
+                    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                
+                    <ul class="nav col-md-4 justify-content-end">
+                      <li class="nav-item"><a href="tabclientes.html" class="nav-link px-2 text-body-secondary">Formularios</a></li>
+                      <li class="nav-item"><a href="formclientes.html" class="nav-link px-2 text-body-secondary">Tablas</a></li>
+                      <li class="nav-item"><a href="webmaster.html" class="nav-link px-2 text-body-secondary">Web Master</a></li>
+                      
+                   
+                    </ul>
+                  </footer>
+                </div>
+          </div>
+  </body>
+  
+  </html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <title>Page Layout</title>
+        <style>
+                .head1 {
+                        font-size: 55px;
+                        color: #000000;
+                        font-weight: bold;
+                }
+
+                .head2 {
+                        font-size: 22px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                }
+
+
+                body {
+                        margin: 0 auto;
+                        background-position: center;
+                        background-size: contain;
+                        position: relative;
+                        font-size: 27px;
+                }
+
+                .body2 {
+                        text-align: left;
+                        font-family: "Candara";
+                        font-size: 20px;
+                }
+
+                .pluto {
+                        background-color:#ec6b4a;
+                        width: 100%;
+                        height: 200px;
+                }
+
+                .menu {
+                        position: sticky;
+                        top: 0;
+                        background-color: #B0BEC5;
+                        padding: 10px 0px 10px 0px;
+                        color: rgb(0, 0, 0);
+                        margin: 0 auto;
+                        overflow: hidden;
+
+                }
+
+                .menu a {
+                        float: left;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 20px;
+                }
+
+                .menu a:hover {
+                        background: rgb(223, 202, 87);
+                }
+
+                .menu-log {
+                        right: auto;
+                        float: right;
+                }
+
+         
+                .body_sec {
+                        margin-left: 10px 0px;
+                      
+                }
+
+                .footer{
+                background-color:  #4d89c2;
+          }
+                .body_sec {
+                        margin-left: 10px 0px;
+                }
+        </style>
+</head>
+
+<body>
+
+        <!-- Header Section -->
+        <header class="pluto">
+                
+
+                <center>
+                         <img src="img/logo.png" alt="hueso" width="99" height="99">
+                        <div class="head1">Jugueteria JmBau</div>
+                </center>
+        </header>
+
+        <!-- Menu Navigation Bar -->
+        <div class="menu">
+            <center>
+                <a href="index.html"><img src="img/casita.png" alt="hueso" width="45" height="40"></a>
+              
+                
+            </center>
+                <div class="menu-log">
+                        <a href="mision.html">Mision</a>
+                        <a href="vision.html">Vision</a>
+                        <a href="ubicacion.html">Ubicacion</a>
+                        <a href="formclientes.html">Tablas</a>
+                        <a href="tabclientes.html">Formularios</a>
+                        <a href="webmaster.html">Web Master</a>
+                        <a href="webmaster.html"></a>
+                </div>
+        </div>
+
+        <!-- Body section -->
+        <div class="body_sec">
+                <section id="Content">
+         <center><br><br>
+                <h2>Nos ubicamos en:</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14931.506749651682!2d-103.35125949822375!3d20.674595244198457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18bbd6c91a1%3A0x7193994262157f2d!2sPepe%20Toys!5e0!3m2!1ses-419!2smx!4v1695767850831!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+          <br><br> </center>
+                </section>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+                <div class="container">
+                        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                          <p class="col-md-4 mb-0 text-body-secondary">@JugueteriaJmBau</p>
+                      
+                          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                          </a>
+                      
+                          <ul class="nav col-md-4 justify-content-end">
+                            <li class="nav-item"><a href="tabclientes.html" class="nav-link px-2 text-body-secondary">Formularios</a></li>
+                            <li class="nav-item"><a href="formclientes.html" class="nav-link px-2 text-body-secondary">Tablas</a></li>
+                            <li class="nav-item"><a href="webmaster.html" class="nav-link px-2 text-body-secondary">Web Master</a></li>
+                            
+                         
+                          </ul>
+                        </footer>
+                      </div>
+                </div>
+        </body>
+        
+        </html>
